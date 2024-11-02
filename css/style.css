@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rubik+Wet+Paint&display=swap');
+
+
+
+
+
+
+ul{
+    padding:0px !important;
+}
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+@media (min-width:400px) {
+    .container{
+        max-width: 380px;
+        width: 340px;
+        margin: auto;
+        padding: 0px 20px;
+    }
+}
+
+
+.nav-child-div img{
+    width: 90px;
+    height: 90px;
+    padding: 15px 0px;
+}
+
+.nav-sec{
+    background-color: rgb(5, 245, 245);
+}
+
+.nav-main-div{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+
+.nav-child-div{
+    padding: 15px 0px;
+}
+
+.nav-child-div ul{
+display: flex;
+flex-direction: column;
+}
+
+.nav-child-div ul li{
+ padding:10px 0px;
+ list-style: none;
+}
+
+.nav-child-div a{
+text-decoration: none;
+ color: cadetblue;
+ }
+
+
+ .nav-btn{
+    padding: 10px 20px;
+    background-color: rgba(37, 165, 125, 0.87);
+    color: rgba(23, 239, 30, 0.786) !important;
+    border-radius: 30%;
+ }
+
+
+ .dopdwron1{
+    display: none;
+    position: absolute;
+    background-color: black;
+    padding: 20px;
+    border-radius: 15px;
+ }
+
+
+ .dopdwron:hover .dopdwron1{
+    display: block;
+ }
+
+ .dopdwron1 li{
+    background-color: blanchedalmond;
+    margin: 7px 0px;
+    padding: 10px;
+    border-radius: 5px;
+ }
+
+ .nav-child-div a:hover{
+    color: chocolate;
+    letter-spacing: 3px;
+    transition-duration: 1s;
+    font-weight: 800;
+    font-size: 20px;
+ }
+
+
+
+
+
+ .banner-sec{
+    background-image:url('../image/WhatsApp\ Image\ 2024-11-02\ at\ 09.39.08_e39128b3.jpg');
+    padding: 450px 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ 
+ .banner-main-div{
+    display: flex;
+    justify-content: center;
+ }
+
+ .banner-main-div{
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 400;
+    font-size:28px;
+    color: rgb(5, 135, 142);
+
+ }
+
+ .banner-main-div h1{
+    animation-name: mama;
+    animation-duration: 6s;
+    /* animation-delay: ; */
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+ }
+
+
+ @keyframes mama {
+   100%{
+    margin-bottom: 0px;
+   }
+   75%{
+      color: rgb(92, 231, 18);
+   }
+   50%{
+    margin-bottom: 70px;
+    color: rgb(250, 28, 165);
+   }
+   25%{
+      color: blueviolet;
+      transform: rotate(180deg);
+      /* letter-spacing: 5px; */
+   }
+ }
+
+ .card-child-div{
+   text-align: center;
+   margin: 20px 0px;
+   color: darkred;
+ }
+
+ .card-child-div img{
+   width: 350px;
+   height: 350px;
+   border-radius: 7px;
+ }
